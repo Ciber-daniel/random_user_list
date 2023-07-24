@@ -1,0 +1,23 @@
+export const countryOptions = [
+  { label: "Australia (AU)", value: "AU" },
+  { label: "Brazil (BR)", value: "BR" },
+  { label: "Canada (CA)", value: "CA" },
+  { label: "Switzerland (CH)", value: "CH" },
+  { label: "Germany (DE)", value: "DE" },
+  { label: "Denmark (DK)", value: "DK" },
+  { label: "Spain (ES)", value: "ES" },
+  { label: "Finland (FI)", value: "FI" },
+  { label: "France (FR)", value: "FR" },
+  { label: "United Kingdom (GB)", value: "GB" },
+  { label: "Ireland (IE)", value: "IE" },
+  { label: "India (IN)", value: "IN" },
+  { label: "Iran (IR)", value: "IR" },
+  { label: "Mexico (MX)", value: "MX" },
+  { label: "Netherlands (NL)", value: "NL" },
+  { label: "Norway (NO)", value: "NO" },
+  { label: "New Zealand (NZ)", value: "NZ" },
+  { label: "Serbia (RS)", value: "RS" },
+  { label: "Turkey (TR)", value: "TR" },
+  { label: "Ukraine (UA)", value: "UA" },
+  { label: "United States (US)", value: "US" }
+];
