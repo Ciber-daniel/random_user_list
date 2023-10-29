@@ -18,17 +18,13 @@ export const Card = styled.div`
   height: 500px;
   border-radius: 10px;
   background-color: #fff;
-  box-shadow: 0px 0px 10px
-    rgba(0, 0, 0, 0.2);
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
   overflow: hidden;
 
   @media (max-width: 640px) {
     height: 600px;
   }
-
 `;
-
-
 
 export const Header = styled.div`
   height: 40%;
@@ -36,9 +32,7 @@ export const Header = styled.div`
   align-items: center;
   justify-content: center;
   position: relative;
-  background-color: rgb(
-    230 230 230
-  ) !important;
+  background-color: rgb(230 230 230) !important;
 `;
 
 export const Divider = styled.div`
@@ -93,11 +87,10 @@ export const Description = styled.p`
 export const Icon = styled.li<IconProps>`
   margin: 20px;
   width: 50px;
+  list-style-type: none;
   height: 62px;
   background: ${(props) =>
-    props.background
-      ? `url(${props.background})`
-      : ""};
+    props.background ? `url(${props.background})` : ""};
   background-size: cover;
   background-position: bottom;
   transition: all 0.3s ease-in;
@@ -111,7 +104,7 @@ export const Icon = styled.li<IconProps>`
 export const ContainerIcons = styled.ul`
   position: relative;
   overflow: auto;
-  flex-wrap:  wrap;
+  flex-wrap: wrap;
   display: inline-flex;
   flex-direction: row;
   align-items: center;
