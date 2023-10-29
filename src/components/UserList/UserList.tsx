@@ -2,7 +2,6 @@ import { ListContainer } from "./UserList.styled";
 import { User } from "../../types/user";
 import { UserCard } from "../UserCard/UserCard";
 import { Link } from "react-router-dom";
-import { ButtonsContainer } from "../../views/Main";
 import styled from "styled-components";
 
 interface UserListProps {
